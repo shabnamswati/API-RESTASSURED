@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[===========connection successful=====]]>
+    </line>
+    <line>
+      <![CDATA[TY_PROJ_2207]]>
+    </line>
+    <line>
+      <![CDATA[==========connection close=========]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1574" started-at="2022-08-11T11:56:15 IST" finished-at="2022-08-11T11:56:16 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1574" started-at="2022-08-11T11:56:15 IST" finished-at="2022-08-11T11:56:16 IST">
+      <class name="BasicCURDoperations.CreateAndValidateDB">
+        <test-method status="PASS" signature="bsConfig()[pri:0, instance:BasicCURDoperations.CreateAndValidateDB@150c158]" name="bsConfig" is-config="true" duration-ms="443" started-at="2022-08-11T11:56:14 IST" finished-at="2022-08-11T11:56:15 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[===========connection successful=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method status="PASS" signature="createAndValiDB()[pri:0, instance:BasicCURDoperations.CreateAndValidateDB@150c158]" name="createAndValiDB" duration-ms="1555" started-at="2022-08-11T11:56:15 IST" finished-at="2022-08-11T11:56:16 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[TY_PROJ_2207]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createAndValiDB -->
+        <test-method status="PASS" signature="asConfig()[pri:0, instance:BasicCURDoperations.CreateAndValidateDB@150c158]" name="asConfig" is-config="true" duration-ms="10" started-at="2022-08-11T11:56:16 IST" finished-at="2022-08-11T11:56:16 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[==========connection close=========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- BasicCURDoperations.CreateAndValidateDB -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
